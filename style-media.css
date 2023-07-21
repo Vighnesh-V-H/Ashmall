@@ -1,0 +1,323 @@
+html {
+  font-size: 100%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 89%;
+  }
+  body {
+    padding: 0;
+  }
+  .main1 {
+    letter-spacing: 0.5rem;
+  }
+  .main2 {
+    letter-spacing: 1.2rem;
+  }
+  .about-text {
+    font-size: 2.1rem;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+  .row2 div {
+    margin: 0 auto;
+  }
+  .feature-box {
+    width: 90%;
+  }
+  .header {
+    clip-path: polygon(0px 0px, 100% 0vh, 100% 84vh, 0px 100%);
+  }
+  .about {
+    margin-top: -5rem;
+    padding-top: 6rem;
+  }
+  .col-1-of-3 {
+    width: 165%;
+  }
+  .card-side {
+    height: 84vh;
+  }
+  .pricing-box {
+    width: 30%;
+    transform: translate(-32%);
+    margin: 0 auto;
+  }
+  .section-pricing {
+    height: 310vh;
+  }
+  .about-des {
+    margin: 7rem;
+  }
+  .card-details ul li {
+    margin: 2.8rem;
+    font-size: 1.3rem;
+  }
+  .most-bought {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 66.25%;
+  }
+  body {
+    padding: 0;
+  }
+  .main1 {
+    letter-spacing: 0.5rem;
+  }
+  .main2 {
+    letter-spacing: 1.2rem;
+  }
+  .about-text {
+    font-size: 1.9rem;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+  .row2 div {
+    margin: 0 auto;
+  }
+  .feature-box {
+    width: 80%;
+  }
+  .header {
+    clip-path: polygon(0px 0px, 100% 0vh, 100% 89vh, 0px 100%);
+  }
+  .about {
+    margin-top: -5rem;
+    padding-top: 11rem;
+  }
+  .col-1-of-3 {
+    width: 150%;
+  }
+  .card-side {
+    height: 60vh;
+  }
+  .pricing-box {
+    width: 30%;
+    transform: translate(-26%);
+    margin: 0 auto;
+  }
+  .section-pricing {
+    height: 230vh;
+  }
+  .about-des {
+    margin: 7rem;
+  }
+  .card-details ul li {
+    margin: 2.8rem;
+    font-size: 1.3rem;
+  }
+  .most-bought {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* @media (max-width: 112.5em){
+    html{
+        font-size: 101%;
+    }} */
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    padding: 0;
+  }
+  .main1 {
+    letter-spacing: 0.5rem;
+  }
+  .main2 {
+    letter-spacing: 1.2rem;
+  }
+  .about-text {
+    font-size: 1.9rem;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+  .row2 div {
+    margin: 0 auto;
+  }
+  .feature-box {
+    width: 55%;
+  }
+
+  /* .col-1-of-3{
+    width: 70%;
+    height:min-content;
+    margin: 0 auto;
+  }
+  .section-pricing{
+    height: 133rem;
+  } */
+  .header {
+    clip-path: polygon(0px 0px, 100% 0vh, 100% 89vh, 0px 100%);
+  }
+  .about {
+    margin-top: -4rem;
+    padding-top: 18rem;
+  }
+  .col-1-of-3 {
+    width: 170%;
+  }
+  .pricing-box {
+    width: 40%;
+    transform: translate(-40%);
+    margin: 0 auto;
+  }
+  .section-pricing {
+    height: 217vh;
+  }
+  /* .about-des {
+    margin: 7rem;
+  } */
+  .card {
+    transform: translate(-30%);
+  }
+  .card-details ul li {
+    margin: 3rem;
+    font-size: 1.3rem;
+  }
+  /* .most-bought {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  } */
+  .col-1-of-2 {
+    float: none;
+  }
+  .card-side {
+    height: 55vh;
+    width: 154%;
+  }
+  .btn-green:link,
+  .btn-green:visited {
+    margin: 1rem;
+    padding: 1rem 2.5rem;
+  }
+  .row .footer-row {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .footer-copyright {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .row-f {
+    margin: 1.3rem;
+  }
+  .row ul {
+    width: 100%;
+    margin: 0;
+  }
+  .you-want {
+    margin-bottom: -4rem;
+  }
+  .about-des .col-1-of-2 {
+    width: 110%;
+    float: none;
+  }
+  .btn-text {
+    margin-bottom: 4rem;
+  }
+  .composition {
+    margin-left: 1rem;
+    width: 90%;
+    /* height: 60%; */
+  }
+  .about {
+    padding-top: 10rem;
+  }
+  .about-text {
+    font-size: 1.7rem;
+  }
+
+  .btn-text {
+    margin-bottom: 9rem;
+  }
+  .feature-box {
+    width: 81%;
+  }
+  .card-details {
+    margin-top: 6rem;
+  }
+  .btn-book:link,
+  .btn-book:visited {
+    padding: 4px 17px;
+  }
+  .story {
+    padding: 3rem;
+  }
+  .btn-green:link,
+  .btn-green:visited {
+    margin: -1rem;
+    padding: 1rem 2.5rem;
+    margin-bottom: 2px;
+  }
+  .section-book {
+    padding: 9rem 1rem 3rem 1rem;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .book {
+    transform: translate(-16.4%);
+    width: 150%;
+  }
+  .btn-green:link,
+  .btn-green:visited {
+    margin: -1rem;
+    padding: 1rem 2.5rem;
+    margin-bottom: 2px;
+  }
+  .section-book {
+    padding: 9rem 1rem 3rem 1rem;
+  }
+  .story {
+    padding: 3rem;
+  }
+  .feature-box {
+    width: 100%;
+  }
+  .you-want {
+    margin-bottom: -4rem;
+  }
+  .about-des .col-1-of-2 {
+    width: 110%;
+    float: none;
+  }
+  .btn-text {
+    margin-bottom: 4rem;
+  }
+  .composition {
+    margin-left: -2rem;
+    width: 110%;
+  }
+  .about {
+    padding-top: 10rem;
+  }
+  .about-text {
+    font-size: 1.7rem;
+  }
+  .most-bought {
+    transform: translate(-10%);
+  }
+  .card {
+    transform: translate(-59%);
+  }
+  .card-side {
+    height: 47vh;
+    width: 190%;
+  }
+  .section-pricing {
+    height: 184vh;
+  }
+} */
